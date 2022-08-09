@@ -1,12 +1,12 @@
 
 a {
-  color: #A5C9CA;
+  color: #FFB4B4;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
 #top-container {
-  background-color: #E7F6F2;
+  background-color: #F6F6F6;
   margin: 0;
   position: relative;
   width: 100%;
@@ -25,7 +25,7 @@ nav {
   top: 0;
   width: 600px;
   height: 100px;
-  background-color: #E7F6F2;
+  background-color: #F6F6F6;
   border-radius: 50px;
   padding: 0;
   transition: top 0.3s;
@@ -51,7 +51,7 @@ nav ul li {
 }
 nav ul li::after {
   content: '';
-  background: #395B64;
+  background: #B2A4FF;
   width: 100%;
   height: 100%;
   border-radius: 30px;
@@ -75,7 +75,7 @@ nav ul li:hover::after {
 /* IDEA: ----------------------------------------------------------------------------- */
 
 body {
-  color: #A5C9CA;
+  color: #FFB4B4;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -99,7 +99,7 @@ p {
   width: 100px;
 }
 .main-container {
-  background-color: #E7F6F2;
+  background-color: #FFF8BC;
   padding-right: 150px;
   padding-left: 150px;
 }
@@ -119,13 +119,13 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
-  color: #395B64;
-  font-weight: normal;
+  color: #FF8FB1;
+  font-weight: lighter;
   padding-bottom: 10px;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #395B64;
+  color: #FF8FB1;
   font-size: 2rem;
   font-weight: lighter;
 }
@@ -136,14 +136,14 @@ h3 {
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 2%;
-  color: #9ED2C6;
-  background-color: #54BAB9;
+  color: #FFF9CA;
+  background-color: #FFDBA4;
 }
 
 .middle-container {
   padding-top: 10px;
   height: 650px;
-  background-color: #E7F6F2;
+  background-color: #F6F6F6;
   padding-bottom: 0;
 }
 .intro {
@@ -185,7 +185,7 @@ h3 {
   text-align: left;
 }
 hr {
- border-color: #A5C9CA;
+ border-color: #FFDBA4;
  border-width: 20px;
  border-style: none;
  border-top-style: dotted;
@@ -194,7 +194,7 @@ hr {
  margin: 100px auto;
 }
 .bottom-container {
-  background-color: #395B64;
+  background-color: #FFE898;
   padding-top: 50px;
   padding-bottom: 20px;
 }
