@@ -100,8 +100,10 @@ p {
 }
 .main-container {
   background-color: #E7F6F2;
+  padding-right: 150px;
+  padding-left: 150px;
 }
-.man-image {
+.girl-image {
   padding-top: 80px;
   height: 120px;
   width: auto;
@@ -130,6 +132,13 @@ h3 {
 .pro
 {text-decoration: underline;
 }
+.skills {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 2%;
+  color: #9ED2C6;
+  background-color: #54BAB9;
+}
 
 .middle-container {
   padding-top: 10px;
@@ -144,11 +153,10 @@ h3 {
 
 .book-image {
   width: 25%;
-  border-radius: 100%;
   float: left;
   margin: 30px;}
 
-.anime-image {
+.computer-image {
   width: 25%;
   border-radius: 100%;
   float: right;
@@ -158,12 +166,15 @@ h3 {
   border-radius: 100%;
   float: left;
   margin: 30px;
-
 }
 .joystick-image {
   width: 25%;
-  border-radius: 100%;
   float: right;
+  margin: 30px;
+}
+.drawing-image {
+  width: 25%;
+  float: left;
   margin: 30px;
 }
 .skill-row {
@@ -178,7 +189,7 @@ hr {
  border-width: 20px;
  border-style: none;
  border-top-style: dotted;
- width: 5%;
+ width: 7%;
  border: 50px auto 50px auto;
  margin: 100px auto;
 }
